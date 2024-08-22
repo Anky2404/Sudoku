@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Slot
+comment0.text=\r\n\ Represents\ a\ slot\ in\ the\ Sudoku\ grid.\r\n\ This\ class\ is\ used\ to\ store\ information\ about\ each\ cell\ in\ the\ grid,\r\n\ including\ its\ position,\ state,\ and\ whether\ it\ is\ fillable\ by\ the\ user.\r\n
+comment1.params=col\ row\ state\ fillable
+comment1.target=Slot(int,\ int,\ java.lang.String,\ boolean)
+comment1.text=\r\n\ Constructs\ a\ new\ Slot\ with\ the\ specified\ column,\ row,\ state,\ and\ fillable\ status.\r\n\r\n\ @param\ col\ \ \ \ \ the\ column\ index\ of\ the\ slot\r\n\ @param\ row\ \ \ \ \ the\ row\ index\ of\ the\ slot\r\n\ @param\ state\ \ \ the\ state\ of\ the\ slot\r\n\ @param\ fillable\ whether\ the\ slot\ can\ be\ filled\ by\ the\ user\r\n
+comment2.params=
+comment2.target=int\ getCol()
+comment2.text=\r\n\ Gets\ the\ column\ index\ of\ this\ slot.\r\n\r\n\ @return\ the\ column\ index\r\n
+comment3.params=
+comment3.target=int\ getRow()
+comment3.text=\r\n\ Gets\ the\ row\ index\ of\ this\ slot.\r\n\r\n\ @return\ the\ row\ index\r\n
+comment4.params=
+comment4.target=java.lang.String\ getState()
+comment4.text=\r\n\ Gets\ the\ current\ state\ of\ this\ slot.\r\n\r\n\ @return\ the\ state\ of\ the\ slot\r\n
+comment5.params=state
+comment5.target=void\ setState(java.lang.String)
+comment5.text=\r\n\ Sets\ the\ state\ of\ this\ slot.\r\n\r\n\ @param\ state\ the\ new\ state\ to\ set\r\n
+comment6.params=
+comment6.target=boolean\ getFillable()
+comment6.text=\r\n\ Checks\ if\ this\ slot\ can\ be\ filled\ by\ the\ user.\r\n\r\n\ @return\ true\ if\ the\ slot\ is\ fillable,\ false\ otherwise\r\n
+numComments=7

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Move
+comment0.text=\r\n\ Represents\ a\ move\ in\ the\ Sudoku\ game.\r\n\ This\ class\ is\ used\ to\ store\ information\ about\ a\ move,\ including\r\n\ the\ position\ of\ the\ move\ and\ the\ previous\ value\ of\ the\ cell.\r\n
+comment1.params=row\ col\ previousValue
+comment1.target=Move(int,\ int,\ java.lang.String)
+comment1.text=\r\n\ Constructs\ a\ new\ Move\ with\ the\ specified\ row,\ column,\ and\ previous\ value.\r\n\r\n\ @param\ row\ \ \ \ \ \ \ \ \ \ the\ row\ index\ of\ the\ move\r\n\ @param\ col\ \ \ \ \ \ \ \ \ \ the\ column\ index\ of\ the\ move\r\n\ @param\ previousValue\ the\ previous\ value\ of\ the\ cell\ before\ the\ move\r\n
+comment2.params=
+comment2.target=int\ getRow()
+comment2.text=\r\n\ Gets\ the\ row\ index\ of\ this\ move.\r\n\r\n\ @return\ the\ row\ index\r\n
+comment3.params=
+comment3.target=int\ getCol()
+comment3.text=\r\n\ Gets\ the\ column\ index\ of\ this\ move.\r\n\r\n\ @return\ the\ column\ index\r\n
+comment4.params=
+comment4.target=java.lang.String\ getPreviousValue()
+comment4.text=\r\n\ Gets\ the\ previous\ value\ of\ the\ cell\ before\ the\ move.\r\n\r\n\ @return\ the\ previous\ value\r\n
+numComments=5

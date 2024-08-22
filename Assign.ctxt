@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Assign
+comment0.text=\r\n\ Represents\ an\ assignment\ of\ a\ number\ to\ a\ specific\ cell\ in\ the\ Sudoku\ game.\r\n\ This\ class\ is\ used\ to\ facilitate\ the\ assignment\ of\ numbers\ to\ cells\ in\ the\ game.\r\n
+comment1.params=game\ row\ col\ number
+comment1.target=Assign(Sudoku,\ int,\ int,\ java.lang.String)
+comment1.text=\r\n\ Constructs\ a\ new\ Assign\ object\ with\ the\ specified\ game,\ row,\ column,\ and\ number.\r\n\ Assigns\ the\ given\ number\ to\ the\ specified\ cell\ in\ the\ Sudoku\ game.\r\n\r\n\ @param\ game\ \ \ the\ Sudoku\ game\ instance\r\n\ @param\ row\ \ \ \ the\ row\ index\ of\ the\ cell\ to\ be\ assigned\r\n\ @param\ col\ \ \ \ the\ column\ index\ of\ the\ cell\ to\ be\ assigned\r\n\ @param\ number\ the\ number\ to\ be\ assigned\ to\ the\ cell\r\n
+comment2.params=number
+comment2.target=void\ assignMove(java.lang.String)
+comment2.text=\r\n\ Assigns\ the\ given\ number\ to\ the\ cell\ specified\ by\ the\ row\ and\ column\ indices.\r\n\r\n\ @param\ number\ the\ number\ to\ be\ assigned\ to\ the\ cell\r\n
+comment3.params=
+comment3.target=int\ getRow()
+comment3.text=\r\n\ Gets\ the\ row\ index\ of\ the\ cell\ assigned\ by\ this\ Assign\ object.\r\n\r\n\ @return\ the\ row\ index\r\n
+comment4.params=
+comment4.target=int\ getCol()
+comment4.text=\r\n\ Gets\ the\ column\ index\ of\ the\ cell\ assigned\ by\ this\ Assign\ object.\r\n\r\n\ @return\ the\ column\ index\r\n
+comment5.params=
+comment5.target=java.lang.String\ getNumber()
+comment5.text=\r\n\ Gets\ the\ number\ assigned\ to\ the\ cell\ by\ this\ Assign\ object.\r\n\r\n\ @return\ the\ assigned\ number\r\n
+numComments=6
